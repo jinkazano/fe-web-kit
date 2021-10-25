@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <!-- Page Title -->
+    <title>Admin</title>
+    <!-- / -->
+    <!---Font Icon-->
+    <link href="static/plugin/font-awesome/css/fontawesome-all.min.css" rel="stylesheet" />
+    <link href="static/plugin/et-line/style.css" rel="stylesheet" />
+    <link href="static/plugin/themify-icons/themify-icons.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <!-- / -->
+    <!-- Plugin CSS -->
+    <link href="static/plugin/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="static/plugin/owl-carousel/css/owl.carousel.min.css" rel="stylesheet" />
+    <!-- / -->
+    <!-- Theme Style -->
+    <link href="static/css/style.css" rel="stylesheet" />
+    <!-- / -->
+    <!-- Account Settings style -->
+    <link rel="stylesheet" href="static/css/account-settings.css">
+    <!-- / -->
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico" />
+    <!-- / -->
+    
+</head>
+<!-- Body Start -->
+
+<body id="page-top">
+    <!-- Page Wrapper -->
+    <div id="wrapper">
+        <!-- Sidebar -->
+        <ul class="navbar-nav bg-gradient-dark sidebar sidebar-dark " id="sidebar">
+            <!-- Sidebar - Brand -->
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+                <div class="sidebar-brand-icon  ">
+                    <img class="rounded-circle" src="static/img/logo.jpg">
+                </div>
+                <div class="sidebar-brand-text mx-3">KIT CLUB</div>
+            </a>
+            <!-- Divider -->
+            <hr class="sidebar-divider my-0">
+            <!-- Nav Item - Dashboard -->
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">
+                    <i class="fas fa-fw fa-tachometer-alt"></i>
+                    <span>Dashboard</span></a>
+            </li>
+            <!-- Divider -->
+            <hr class="sidebar-divider">
+            <!-- Nav Item - Quản lí thành viên -->
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">
+                    <i class="fas fa-fw fa-address-book"></i>
+                    <span>Quản lí thành viên</span></a>
+            </li>
+            <!-- Divider -->
+            <hr class="sidebar-divider d-none d-md-block">
+            <!-- Nav Item - Tài khoản -->
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">
+                    <i class="fas fa-fw fa-user-edit"></i>
+                    <span>Tài khoản</span></a>
+            </li>
+            <!-- Divider -->
+            <hr class="sidebar-divider d-none d-md-block">
+            <!-- Nav Item - Đăng xuất -->
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">
+                    <i class="fas fa-fw fa-sign-out-alt"></i>
+                    <span>Đăng Xuất</span></a>
+            </li>
+            <!-- Divider -->
+            <hr class="sidebar-divider d-none d-md-block">
+            <!-- Sidebar Toggler (Sidebar) -->
+            <div class="text-center d-none d-md-inline">
+                <button class="rounded-circle border-0" id="sidebarToggle"></button>
+            </div>
+        </ul>
+        <!-- End of Sidebar -->
+        <!-- Content Wrapper -->
+        <div id="content-wrapper" class="d-flex flex-column">
+            <!-- Main Content -->
+            <div id="content">
+                <!-- Topbar -->
+                <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+                    <!-- Sidebar Toggle (Topbar) -->
+                    <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                    <!-- Topbar Search -->
+                    <h5>KMA Informations Technology</h5>
+                    <!-- Topbar Navbar -->
+                    <ul class="navbar-nav ml-auto">
+                        <!-- Nav Item - Search Dropdown (Chỉ hiện với XS) -->
+                        <li class="nav-item dropdown no-arrow d-sm-none">
+                            <!-- Dropdown - Messages -->
+                            <div class="dropdown-menu dropdown-menu-right p-3 shadow animated--grow-in" aria-labelledby="searchDropdown">
+                                <form class="form-inline mr-auto w-100 navbar-search">
+                                    <div class="input-group">
+                                        <input type="text" class="form-control bg-light border-0 small" placeholder="Search for..." aria-label="Search" aria-describedby="basic-addon2">
+                                        <div class="input-group-append">
+                                            <button class="btn btn-primary" type="button">
+                                                <i class="fas fa-search fa-sm"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </li>
+                        <!-- Nav Item - Alerts -->
+                        <li class="nav-item dropdown no-arrow mx-1">
+                            <a class="nav-link dropdown-toggle" href="#" id="alertsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="fas fa-bell fa-fw"></i>
+                                <!-- Counter - Alerts -->
+                                <span class="badge badge-danger badge-counter">3+</span>
+                            </a>
+                            <!-- Dropdown - Alerts -->
+                            <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="alertsDropdown">
+                                <h6 class="dropdown-header">
+                                    Thông báo
+                                </h6>
+                                <a class="dropdown-item d-flex align-items-center" href="#">
+                                    <div class="mr-3">
+                                        <div class="icon-circle bg-primary">
+                                            <i class="fas fa-file-alt text-white"></i>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="small text-gray-500">03/02/2020</div>
+                                        <span class="font-weight-bold">Thông báo 1</span>
+                                    </div>
+                                </a>
+                                <a class="dropdown-item d-flex align-items-center" href="#">
+                                    <div class="mr-3">
+                                        <div class="icon-circle bg-primary">
+                                            <i class="fas fa-file-alt text-white"></i>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="small text-gray-500">02/02/2020</div>
+                                        Thông báo 2
+                                    </div>
+                                </a>
+                                <a class="dropdown-item d-flex align-items-center" href="#">
+                                    <div class="mr-3">
+                                        <div class="icon-circle bg-warning">
+                                            <i class="fas fa-exclamation-triangle text-white"></i>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="small text-gray-500">01/02/2020</div>
+                                        Error: Money not found
+                                    </div>
+                                </a>
+                                <a class="dropdown-item text-center small text-gray-500" href="#">Xem tất cả</a>
+                            </div>
+                        </li>
+                        <div class="topbar-divider d-none d-sm-block"></div>
+                        <!-- Nav Item - User Information -->
+                        <li class="nav-item dropdown no-arrow">
+                            <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <span class="mr-2 d-none d-lg-inline text-gray-600 small">BOSS admin</span>
+                                <img class="img-profile rounded-circle" src="static/img/user.jpg">
+                            </a>
+                            <!-- Dropdown - User Information -->
+                            <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
+                                <a class="dropdown-item" href="#">
+                                    <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
+                                    Hồ sơ
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>
+                                    Cài đặt
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    <i class="fas fa-list fa-sm fa-fw mr-2 text-gray-400"></i>
+                                    Nhật kí hoạt động
+                                </a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
+                                    <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
+                                    Logout
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+                <!-- End of Topbar -->
+                <!-- Begin Account Settings Page -->
+                <div class="container-fluid" id="">
+                    <!-- Page Heading -->
+                    <div class="d-sm-flex align-items-center justify-content-between mb-4">
+                        <h1 class="h3 mb-0 text-gray-800">Chỉnh sửa tài khoản</h1>
+                    </div>
+                    <!-- Content -->
+                    <div class="">
+                        <!-- Card -->
+                        <div class="card card-fluid   m-5  shadow h-100">
+                            <!-- .card-body -->
+                            <div class="card-body">
+                                <!-- form -->
+                                <form method="post" id="Account-settings-form">
+                                    <!-- form row  profile picture-->
+                                    <div class="form-row">
+                                        <!-- form column -->
+                                        <label for="input01" class="col-md-3 mb-3">Ảnh đại diện</label>
+                                        <!-- /form column -->
+                                        <!-- form column -->
+                                        <div class="col-md-9 mb-3">
+                                            <!-- .media -->
+                                            <div class="media mb-3">
+                                                <!-- avatar -->
+                                                <div class="user-avatar user-avatar-xl fileinput-button">
+                                                    <div class="fileinput-button-label rounded-circle"> Đổi ảnh </div>
+                                                    <img src="static/img/user.jpg" class="rounded-circle img-profile" alt="User Avatar">
+                                                    <input id="fileupload-avatar" type="file" name="avatar">
+                                                </div>
+                                                <!-- /avatar -->
+                                                <!-- .media-body -->
+                                                <div class="media-body pl-3 align-self-center">
+                                                    <h6 class="card-subtitle text-muted"> Nhấn vào ảnh đại diện hiện tại để thay đổi </h6>
+                                                    <p class="card-text">
+                                                        <small>JPG, GIF hoặc PNG 400x400, &lt; 2 MB.</small>
+                                                    </p>
+                                                </div>
+                                                <!-- /.media-body -->
+                                            </div>
+                                            <!-- /.media -->
+                                        </div>
+                                        <!-- /form column -->
+                                    </div>
+                                    <!-- /form row -->
+                                    <!-- form row name -->
+                                    <div class="form-row">
+                                        <!-- form column -->
+                                        <label for="input01" class="col-md-3 mb-3">Họ và tên</label>
+                                        <!-- /form column -->
+                                        <!-- form column -->
+                                        <div class="col-md-9 mb-3">
+                                            <input  class="form-control" id="name" value="Hoàng Anh Tuấn" required data-parsley-minlength="1"> </div>
+                                        <!-- /form column -->
+                                    </div>
+                                    <!-- /form row -->
+                                    <!-- form row email -->
+                                    <div class="form-row">
+                                        <!-- form column -->
+                                        <label for="input01" class="col-md-3 mb-3">Email</label>
+                                        <!-- /form column -->
+                                        <!-- form column -->
+                                        <div class="col-md-9 mb-3">
+                                            <input type="email" name="email" class="form-control" id="email" value="abcxyz@gmail.com" required data-parsley-type="email"> </div>
+                                        <!-- /form column -->
+                                    </div>
+                                    <!-- /form row -->
+                                    <!-- form row phone number -->
+                                    <div class="form-row">
+                                        <!-- form column -->
+                                        <label for="input01" class="col-md-3 mb-3">Số điện thoại</label>
+                                        <!-- /form column -->
+                                        <!-- form column -->
+                                        <div class="col-md-9 mb-3">
+                                            <input type="number" class="form-control" id="phone-number" value="0123456789" required data-parsley-pattern="[0-9]{10,11}"> </div>
+                                        <!-- /form column -->
+                                    </div>
+                                    <!-- /form row -->
+                                    <!-- form row class -->
+                                    <div class="form-row">
+                                        <!-- form column -->
+                                        <label for="input01" class="col-md-3 mb-3">Lớp</label>
+                                        <!-- /form column -->
+                                        <!-- form column -->
+                                        <div class="col-md-9 mb-3">
+                                            <input  class="form-control" id="student-class" value="at170000" required data-parsley-pattern="(^A|C|T|a|c|t)(t|T)[0-9]{6}"> </div>
+                                        <!-- /form column -->
+                                    </div>
+                                    <!-- /form row -->
+                                    <!-- form row change password -->
+                                    <div class="form-row">
+                                        <!-- form column -->
+                                        <label for="input01" class="col-md-3 mb-3">Bạn muốn đổi mật khẩu?</label>
+                                        <!-- /form column -->
+                                        <!-- form column -->
+                                        <div class="col-md-9 mb-3">
+                                            <button class="btn btn-primary" type="button" data-target="#change-password-modal" data-toggle="modal">Thay đổi mật khẩu</button> </div>
+                                        <!-- /form column -->
+                                    </div>
+                                    <!-- /form row -->
+                                    <div class="d-flex justify-content-end">
+                                        <button type="submit" href="#" class=" btn btn-primary mr-5  btn-lg" type="button">Lưu thay đổi</button>
+                                    </div>
+                                </form>
+                                <!-- /form -->
+                            </div>
+                            <!-- /.card-body -->
+                        </div>
+                    </div>
+                    <!-- End of Content -->
+                    <!-- End of Page-->
+                </div>
+                <!-- End of Main Content -->
+                <!-- Footer -->
+                <footer class="sticky-footer bg-white mt-5">
+                    <div class="container-fluid my-auto">
+                        <div class="copyright text-center my-auto">
+                            <span>All © Copyright by KIT-CLUB. All Rights Reserved.</span>
+                        </div>
+                    </div>
+                </footer>
+                <!-- End of Footer -->
+            </div>
+            <!-- End of Content Wrapper -->
+        </div>
+        <!-- End of Page Wrapper -->
+        <!-- Scroll to Top Button-->
+        <a class=" scroll-to-top rounded" href="#page-top">
+            <i class="fas fa-angle-up"></i>
+        </a>
+        <!-- Modal change password -->
+        <div id="change-password-modal" class="modal fade" tabindex="-1" role="dialog">
+            <div class="modal-dialog" role="document">
+                <!-- Modal content -->
+                <div class="modal-content" id="change-password-modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">Thay đổi mật khẩu</h4>
+                    </div>
+                    <div class="modal-body">
+                        <form method="post" id="Change-password-form" role="form">
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <input type="password" name="password" id="current-password" class="form-control input-lg" placeholder="Nhập mật khẩu cũ" required data-parsley-length="[5, 20]" data-parsley-trigger="keyup">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <input type="password" name="password" id="new-password" class="form-control input-lg" placeholder="Nhập mật khẩu mới" required data-parsley-length="[5, 20]" data-parsley-trigger="keyup">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <input type="password" name="password" id="confirm-new-password" class="form-control input-lg" placeholder="Nhập lại mật khẩu mới" required data-parsley-equalto="#new-password" data-parsley-trigger="keyup">
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-end">
+                                <button type="submit" href="#" class="btn btn-primary btn-lg">Lưu thay đổi </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <!-- End of Modal content -->
+            </div>
+        </div>
+        <!-- End of Modal -->
+        <!-- / -->
+        <!-- jQuery -->
+       
+        <script src="static/js/jquery-3.2.1.min.js"></script>
+        <script src="static/js/jquery-migrate-3.0.0.min.js"></script>
+        <!-- Plugins -->
+        <script src="static/plugin/bootstrap/js/popper.min.js"></script>
+        <script src="static/plugin/bootstrap/js/bootstrap.min.js"></script>
+        <script src="static/js/parsley.min.js"></script>
+        <script src="static/plugin/owl-carousel/js/owl.carousel.min.js"></script>
+        <script src="static/plugin/particles/particles.min.js"></script>
+        <script src="static/plugin/particles/particles-app.js"></script>
+        <!-- custom -->
+        <script type="static/js/account-settings.js"></script>
+        <script src="static/js/custom.js"></script>
+         <script>
+       $(document).ready(function(){
+            $('#Account-settings-form').parsley();
+            $('#Change-password-form').parsley();
+
+
+        });
+        </script>
+
+</body>
+
+</html>

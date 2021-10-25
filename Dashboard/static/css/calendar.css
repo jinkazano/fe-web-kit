@@ -1,0 +1,49 @@
+#top {
+    border-bottom: 1px solid #ddd;
+    padding: 0 10px;
+    line-height: 40px;
+    font-size: 12px;
+}
+
+#calendar {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 10px;
+    box-shadow: -3px -3px 5px #ffffff73, 4px 4px 5px rgba(68, 63, 63, 0.288),
+    -3px -3px 5px #afafaf73, 4px 4px 5px rgba(68, 63, 63, 0.288);
+}
+#calendar .fc-content-skeleton .fc-time, #calendar .fc-content-skeleton .fc-title{
+    color: #ffffff;
+}
+#calendar tr:first-child > td > .fc-day-grid-event {
+    margin-top: 2px;
+    height: 2.5rem;
+}
+#calendar .fc-day-number{
+    transition: .4s all ease;
+}
+#calendar .fc-day-number:hover {
+    background: rgb(218, 218, 218);
+    padding: 1rem;
+    transition: .4s all ease;
+}
+#calendar .fc-view-container .fc-body .fc-scroller.fc-day-grid-container {
+    height: 100%!important;
+}
+
+@media (max-width: 680px){
+    .fc-toolbar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .fc-toolbar > .fc-center{
+        order: -1;
+    }
+    .fc-toolbar > .fc-left{
+        margin: .5rem 0;
+    }
+    #calendar {
+        margin: 15px auto;
+    }
+}
